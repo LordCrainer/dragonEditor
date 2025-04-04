@@ -25,4 +25,4 @@ jobs:
             - run: yarn run prepack
             - run: yarn publish
               env:
-                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+                  NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
